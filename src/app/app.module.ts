@@ -9,20 +9,21 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { SlidersComponent } from "./sliders/sliders.component";
-import { HomeComponent } from "./home/home.component";
 import { HireComponent } from "./hire/hire.component";
 import { ContactComponent } from "./contact/contact.component";
 import { AboutComponent } from "./about/about.component";
+import { from } from 'rxjs';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SlidersComponent,
-    HomeComponent,
     HireComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
