@@ -3,8 +3,6 @@ import { CommonModule } from "@angular/common";
 import { Routes, RouterModule } from "@angular/router";
 
 // --------------------------------Components-------------------------------------
-import { AppComponent } from "./app.component";
-import { SlidersComponent } from "./sliders/sliders.component";
 import { HomeComponent } from "./home/home.component";
 import { HireComponent } from "./hire/hire.component";
 import { ContactComponent } from "./contact/contact.component";

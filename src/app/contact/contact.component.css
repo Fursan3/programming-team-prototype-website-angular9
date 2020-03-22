@@ -1,0 +1,16 @@
+/* #673ab7 */
+/* #ffd740 */
+/* #4094a8 */
+
+main{
+  margin: 0;
+}
+section {
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 0.3em;
+  box-shadow: 0 0 5px 2px rgba(71, 71, 71, 0.2);
+}
+address{
+  display: block;
+}

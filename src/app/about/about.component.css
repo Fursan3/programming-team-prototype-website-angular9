@@ -1,5 +1,6 @@
 /* #673ab7 */
 /* #ffd740 */
+/* #4094a8 */
 .header {
   background-color: #ffd740b0;
   padding: 1.5em;
@@ -19,7 +20,7 @@ section {
 }
 img {
   outline: auto;
-  outline-color: #673ab7;
+  outline-color: #4094a8;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -52,8 +53,8 @@ img {
   font-size: 16px;
   padding: 16px 32px;
   text-transform: uppercase;
-  background-color: #ffd740;
-  color: #673ab7;
+  color: #fff;
+  background-color: #4094a8;
 }
 
 .text-h:hover {
