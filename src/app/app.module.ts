@@ -14,6 +14,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { AboutComponent } from "./about/about.component";
 import { from } from 'rxjs';
 import { HomeComponent } from './home/home.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -23,9 +24,17 @@ import { HomeComponent } from './home/home.component';
     HireComponent,
     ContactComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+   
+    BrowserModule, AppRoutingModule, HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey:"AIzaSyCoLUMvr0KPNlrMC8u4OqY0UlKM2vo4oMc",
+
+    })
+   
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
