@@ -1,4 +1,9 @@
 .carso{
-  margin: 1em auto;
+  position: static;
+  margin: 2em auto;
   width: 100%;
 }
+/* .img {
+  width:1080px;
+  height:800px;
+} */

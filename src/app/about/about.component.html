@@ -1,4 +1,116 @@
 <app-navbar></app-navbar>
 <ng-container>
-  <p>about works!</p>
+  <main class="container-fluid d-flex justify-content-between">
+    <div class="header border text-center rounded">
+      <h3 class="h2">Meet our professional team</h3>
+    </div>
+    <section class="row">
+      <aside class="col-3 text-center">
+        <div *ngIf="mr">
+
+          <strong class="h4">
+            Mustafa Raad Mutashar
+          </strong>
+          <p>
+            Iraq - 1997
+          </p>
+          <sub>
+            Freelance
+          </sub>
+          <p>
+            Full-Stack Web Developer
+          </p>
+        </div>
+      </aside>
+      <section class="card-decks col-6">
+        <div class="img-div col-6">
+          <img class="card-img" src="../assets/img/MR.jpg" alt="Ofy" />
+          <div href="" class="Info">
+            <button class="text-h btn text-center badge badge-info text-wrap" (click)="mr=!mr">
+              More Info
+            </button>
+          </div>
+        </div>
+        <div class="img-div col-6">
+          <img class="card-img" src="../assets/img/MM.jpg" alt="Ofy" />
+          <div href="" class="Info">
+            <button class="text-h btn text-center badge badge-info text-wrap" (click)="mm=!mm">
+              More Info
+            </button>
+          </div>
+        </div>
+      </section>
+      <aside class="col-3 text-center ">
+        <div *ngIf="mm">
+
+          <strong class="h5">
+            Mustafa Mohammed Kadhim
+          </strong>
+          <p>
+            Iraq - 1998
+          </p>
+          <sub>
+            Freelance
+          </sub>
+          <p>
+            Mobile Applications Developer
+          </p>
+        </div>
+      </aside>
+    </section>
+    <section class="row">
+      <aside class="col-3 text-center ">
+        <div *ngIf="ma">
+
+          <strong class="h5">
+            Mohammed Ali Salim Ali
+          </strong>
+          <p>
+            Iraq - 1998
+          </p>
+          <sub>
+            Freelance
+          </sub>
+          <p>
+            Front-End Web Developer
+          </p>
+        </div>
+      </aside>
+      <section class="card-decks col-6">
+        <div class="img-div col-6">
+          <img class="card-img" src="../assets/img/MA.jpg" alt="Ofy" />
+          <div href="" class="Info">
+            <button class="text-h btn text-center badge badge-info text-wrap" (click)="ma=!ma">
+              More Info
+            </button>
+          </div>
+        </div>
+        <div class="img-div col-6">
+          <img class="card-img" src="../assets/img/MRJ.jpg" alt="Ofy" />
+          <div href="" class="Info">
+            <button class="text-h btn text-center badge badge-info text-wrap" (click)="mrj=!mrj">
+              More Info
+            </button>
+          </div>
+        </div>
+      </section>
+      <aside class="col-3 text-center ">
+        <div *ngIf="mrj">
+
+          <strong class="h4">
+            Mohammed Ridha Jasim
+          </strong>
+          <p>
+            Iraq - 1998
+          </p>
+          <sub>
+            Freelance
+          </sub>
+          <p>
+            Python Applications Developer
+          </p>
+        </div>
+      </aside>
+    </section>
+  </main>
 </ng-container>
