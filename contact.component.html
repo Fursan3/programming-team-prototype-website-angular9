@@ -1,0 +1,102 @@
+<app-navbar></app-navbar>
+<ng-container class="container">
+  <main class="row d-flex justify-content-between ">
+    <!-- ------------------------------------------Left Side------------------------------------------ -->
+    <section class="col-5 d-flex justify-content-center border border-primary bg-light">
+      <!-- ------------------------------------------checkBox Grp------------------------------------------ -->
+      <form class="w-100">
+        <!-- ------------------------------------------Name------------------------------------------ -->
+        <div class="form-group">
+          <label for="Name">Full Name</label>
+          
+<input id="namee" class="form-control" 
+type="email" name="uemail" placeholder="Enter full name Please" 
+autofocus="" required="">
+
+          
+        </div>
+        <!-- ------------------------------------------Company------------------------------------------ -->
+        <div class="form-group">
+          <label for="Company">Company</label>
+          <input id="uemail" class="form-control" 
+          type="email" name="uemail" placeholder="Optional
+          .
+          " autofocus="" required="">
+        </div>
+        <!-- ------------------------------------------Email------------------------------------------ -->
+        <div class="form-group">
+          <label for="Email">Email address</label>
+          <input id="uemail" class="form-control" 
+          type="email" name="uemail" placeholder="Please fill your Email address so we can contact you back.
+          " autofocus="" required="">
+        </div>
+        <!-- ------------------------------------------Title------------------------------------------ -->
+        <div class="form-group">
+          <label for="Title">Title of the issue</label>
+          <label for="Email">Email address</label>
+          <input id="uemail" class="form-control" 
+          type="email" name="uemail" placeholder="Please fill the title of your issue.
+          .
+          " autofocus="" required="">
+        </div>
+        <!-- ------------------------------------------Issue------------------------------------------ -->
+        <div class="form-group">
+          <label for="Issue">Issue</label>
+          <label for="Email">Email address</label>
+          <input id="uemail" class="form-control" 
+          type="email" name="uemail" placeholder="Please fill your Issue.
+          .
+          .
+          " autofocus="" required="">
+        </div>
+        <!-- ------------------------------------------checkBox Grp------------------------------------------ -->
+        <div class="form-group form-check d-flex justify-content-around">
+          <p>The subject is related to:</p>
+          <div>
+            <input type="checkbox" class="form-check-input" id="Check1">
+            <label class="form-check-label" for="Check1">Project</label>
+          </div>
+          <div>
+            <input type="checkbox" class="form-check-input" id="Check2">
+            <label class="form-check-label" for="Check2">work</label>
+          </div>
+          <div>
+            <input type="checkbox" class="form-check-input" id="Check3">
+            <label class="form-check-label" for="Check3">Problem</label>
+          </div>
+        </div>
+        <!-- ------------------------------------------Submit ------------------------------------------ -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </section>
+
+    <!-- ------------------------------------------Right Side------------------------------------------ -->
+
+    <section class="col-5 order border-primary ">
+      <agm-map [latitude]="33.301493" [longitude]="44.42329" class="map" >
+
+      </agm-map>
+      <br>
+      <hr class="col-6">
+      <address>
+        <strong>The M's Team</strong>
+        <p>
+          Iraq - Baghdad <br>
+          Al-Karrada Dakhil St.<br>
+          +9647705675477
+        </p>
+      </address>
+
+    </section>
+
+
+
+
+  </main>
+</ng-container>
+
+
+
+
+
