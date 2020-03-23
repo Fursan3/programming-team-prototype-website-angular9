@@ -28,17 +28,17 @@
       <!-- ------------------------------------------1st Row of imgs------------------------------------------ -->
       <section class="card-decks col-6">
         <div class="img-div col-6">
-          <img class="card-img" src="../assets/img/MR.jpg" alt="Ofy" />
-          <div href="" class="Info">
-            <button class="text-h btn text-center badge badge-info text-wrap" (click)="mr=!mr">
+          <img [ngClass]="mr && 'outliner'" class="card-img" src="../assets/img/MR.jpg" alt="Ofy" />
+          <div class="Info">
+            <button [ngClass]="mr ? 'text-h-e':'text-h'" class=" btn text-center badge badge-info text-wrap" (click)="mr=!mr">
               More Info
             </button>
           </div>
         </div>
         <div class="img-div col-6">
-          <img class="card-img" src="../assets/img/MM.jpg" alt="Ofy" />
-          <div href="" class="Info">
-            <button class="text-h btn text-center badge badge-info text-wrap" (click)="mm=!mm">
+          <img [ngClass]="mm && 'outliner'" class="card-img" src="../assets/img/MM.jpg" alt="Ofy" />
+          <div class="Info">
+            <button [ngClass]="mm ? 'text-h-e':'text-h'" class="btn text-center badge badge-info text-wrap" (click)="mm=!mm">
               More Info
             </button>
           </div>
@@ -84,17 +84,17 @@
       <!-- ------------------------------------------imgs row------------------------------------------ -->
       <section class="card-decks col-6">
         <div class="img-div col-6">
-          <img class="card-img" src="../assets/img/MA.jpg" alt="Ofy" />
-          <div href="" class="Info">
-            <button class="text-h btn text-center badge badge-info text-wrap" (click)="ma=!ma">
+          <img [ngClass]="ma && 'outliner'" class="card-img" src="../assets/img/MA.jpg" alt="Ofy" />
+          <div class="Info">
+            <button [ngClass]="ma ? 'text-h-e':'text-h'" class="btn text-center badge badge-info text-wrap" (click)="ma=!ma">
               More Info
             </button>
           </div>
         </div>
         <div class="img-div col-6">
-          <img class="card-img" src="../assets/img/MRJ.jpg" alt="Ofy" />
-          <div href="" class="Info">
-            <button class="text-h btn text-center badge badge-info text-wrap" (click)="mrj=!mrj">
+          <img [ngClass]="mrj && 'outliner'" class="card-img" src="../assets/img/MRJ.jpg" alt="Ofy" />
+          <div class="Info">
+            <button [ngClass]="mrj ? 'text-h-e':'text-h'" class="btn text-center badge badge-info text-wrap" (click)="mrj=!mrj">
               More Info
             </button>
           </div>

@@ -1,6 +1,21 @@
 /* #673ab7 */
 /* #ffd740 */
 /* #4094a8 */
+/* ---------------------------ngClass Handler--------------------------- */
+.outliner{
+  outline-color: red;
+}
+.text-h-e{
+  font-size: 16px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #303030;
+}
+
+.text-h-e:hover {
+  color: #4094a8;
+}
 /* ---------------------------header--------------------------- */
 .header {
   background-color: #ffd740b0;
@@ -30,7 +45,6 @@ aside {
 img {
   outline: auto;
   outline-color: #4094a8;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* ---------------------------Each img element--------------------------- */
