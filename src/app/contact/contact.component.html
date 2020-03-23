@@ -8,8 +8,8 @@
         <!-- ------------------------------------------Name------------------------------------------ -->
         <div class="form-group">
           <label for="Name">Full Name</label>
-          <input type="text" class="form-control" id="Name" aria-describedby="NameHelp">
-          <small id="NameHelp" class="form-text text-muted">Please fill your name.</small>
+          <input (ngModel)="Name" type="text" class="form-control" id="Name" aria-describedby="NameHelp">
+          <small *ngIf="Name == ''" id="NameHelp" class="form-text text-muted">Please fill your name.</small>
         </div>
         <!-- ------------------------------------------Company------------------------------------------ -->
         <div class="form-group">

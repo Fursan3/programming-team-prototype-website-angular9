@@ -1,19 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  selector: "app-contact",
+  templateUrl: "./contact.component.html",
+  styleUrls: ["./contact.component.css"]
 })
 export class ContactComponent implements OnInit {
+  Name: String;
 
-  constructor() { }
-  latitude = 33.312805;
-  longitude = 44.361488;
+
+  constructor() {}
+
   ngOnInit(): void {
 
+    console.log(this.Name);
   }
-
-
-
 }
