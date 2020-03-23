@@ -1,13 +1,16 @@
 <app-navbar></app-navbar>
+<!-- ------------------------------------------Container------------------------------------------ -->
 <ng-container>
   <main class="container-fluid d-flex justify-content-between">
+    <!-- ------------------------------------------Header------------------------------------------ -->
     <div class="header border text-center rounded">
       <h3 class="h2">Meet our professional team</h3>
     </div>
+    <!-- ------------------------------------------1st Content row------------------------------------------ -->
     <section class="row">
+      <!-- ------------------------------------------MustafaR Info.------------------------------------------ -->
       <aside class="col-3 text-center">
         <div *ngIf="mr">
-
           <strong class="h4">
             Mustafa Raad Mutashar
           </strong>
@@ -22,6 +25,7 @@
           </p>
         </div>
       </aside>
+      <!-- ------------------------------------------1st Row of imgs------------------------------------------ -->
       <section class="card-decks col-6">
         <div class="img-div col-6">
           <img class="card-img" src="../assets/img/MR.jpg" alt="Ofy" />
@@ -40,9 +44,9 @@
           </div>
         </div>
       </section>
+      <!-- ------------------------------------------MustafaM Info.------------------------------------------ -->
       <aside class="col-3 text-center ">
         <div *ngIf="mm">
-
           <strong class="h5">
             Mustafa Mohammed Kadhim
           </strong>
@@ -58,10 +62,11 @@
         </div>
       </aside>
     </section>
+    <!-- ------------------------------------------2nd content row------------------------------------------ -->
     <section class="row">
+      <!-- ------------------------------------------mo3li info------------------------------------------ -->
       <aside class="col-3 text-center ">
         <div *ngIf="ma">
-
           <strong class="h5">
             Mohammed Ali Salim Ali
           </strong>
@@ -76,6 +81,7 @@
           </p>
         </div>
       </aside>
+      <!-- ------------------------------------------imgs row------------------------------------------ -->
       <section class="card-decks col-6">
         <div class="img-div col-6">
           <img class="card-img" src="../assets/img/MA.jpg" alt="Ofy" />
@@ -94,9 +100,9 @@
           </div>
         </div>
       </section>
+      <!-- ------------------------------------------MOh j info------------------------------------------ -->
       <aside class="col-3 text-center ">
         <div *ngIf="mrj">
-
           <strong class="h4">
             Mohammed Ridha Jasim
           </strong>
@@ -112,5 +118,6 @@
         </div>
       </aside>
     </section>
+    <!-- ------------------------------------------Section 2 end------------------------------------------ -->
   </main>
 </ng-container>

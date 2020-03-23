@@ -1,29 +1,39 @@
 /* #673ab7 */
 /* #ffd740 */
 /* #4094a8 */
+/* ---------------------------header--------------------------- */
 .header {
   background-color: #ffd740b0;
   padding: 1.5em;
 }
+/* ---------------------------Main--------------------------- */
 main {
   display: flex;
   margin: 0.5em auto;
   width: 100%;
 }
+/* ---------------------------Sections--------------------------- */
 section {
   display: inline-flex;
   margin: 0.5em auto;
 }
+/* ---------------------------Info edit--------------------------- */
+aside {
+  align-self: center;
+}
+/* ---------------------------imgs div container--------------------------- */
 .img-div {
   position: relative;
   width: fit-content;
 }
+/* ---------------------------imgs--indiviulally--------------------------- */
 img {
   outline: auto;
   outline-color: #4094a8;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* ---------------------------Each img element--------------------------- */
 .card-img {
   opacity: 1;
   display: block;
@@ -32,6 +42,8 @@ img {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+/* ---------------------------Text on imgs--------------------------- */
+/* ---------------------------btn--------------------------- */
 .Info {
   transition: 0.5s ease;
   opacity: 0;
@@ -49,6 +61,7 @@ img {
 .img-div:hover .Info {
   opacity: 1;
 }
+/* ---------------------------btn text--------------------------- */
 .text-h {
   font-size: 16px;
   padding: 16px 32px;
@@ -60,10 +73,7 @@ img {
 .text-h:hover {
   color: #303030;
 }
-
-aside {
-  align-self: center;
-}
+/* ---------------------------flexbox--------------------------- */
 @media (min-width: 768px) {
   main {
     flex-direction: column;
