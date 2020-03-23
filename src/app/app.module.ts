@@ -4,7 +4,7 @@ import { NgModule } from "@angular/core";
 import { AppRoutingModule } from "./app-routing.module";
 // --------------------------------HTTP client-------------------------------------
 import { HttpClientModule } from "@angular/common/http";
-// import { AgmCoreModule } from "@agm/core";
+import { AgmCoreModule } from "@agm/core";
 // --------------------------------rxjs-------------------------------------
 import { from } from 'rxjs';
 // --------------------------------Components-------------------------------------
@@ -14,7 +14,6 @@ import { HireComponent } from "./hire/hire.component";
 import { ContactComponent } from "./contact/contact.component";
 import { AboutComponent } from "./about/about.component";
 import { HomeComponent } from './home/home.component';
-import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -23,16 +22,15 @@ import { AgmCoreModule } from '@agm/core';
     HireComponent,
     ContactComponent,
     AboutComponent,
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
-   
-    BrowserModule, AppRoutingModule, HttpClientModule,
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey:"AIzaSyCoLUMvr0KPNlrMC8u4OqY0UlKM2vo4oMc",
-
+      apiKey: "AIzaSyCjJHN3HWa4kOoBrBZIHM2icNimK20Rz4M"
     })
-   
   ],
   providers: [],
   bootstrap: [AppComponent]
